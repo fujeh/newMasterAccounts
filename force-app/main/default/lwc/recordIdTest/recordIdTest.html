@@ -1,11 +1,31 @@
 <template>
-    <div class="boarder">
-        <template if:true={accounts.data}>
-            <ui>
-                <template for:each={accounts.data} for:item="account">
-                    <li key={account.Id}>{account.Name}</li>
-                </template>
-            </ui>
-        </template>
-    </div>
+    <lightning-card variant="Narrow"> 
+        <div class="slds-m-top_medium slds-m-bottom_x-large">
+            <h2 class="slds-text-heading_medium slds-m-bottom_medium slds-align_absolute-center">
+                A tile component with an icon.
+            </h2>
+
+            <template if:true={accounts.data}>
+                <ui>
+                    <template for:each={accounts.data} for:item="account">
+
+
+                        <!-- With an icon -->
+                        <div class="slds-p-around_medium" key={account.Id}>
+                            <lightning-tile label={account.Name} type="media">
+                                <lightning-icon slot="media" icon-name="standard:groups"></lightning-icon>
+                                <ul class="slds-list_horizontal slds-has-dividers_right">
+                                        <li class="slds-item">{account.Name}</li>
+                                        <li class="slds-item">{account.Name}</li>
+                                    </ul>
+                            </lightning-tile>
+                        </div>
+
+                    </template>
+                </ui>
+            </template>
+
+
+        </div>
+    </lightning-card>
 </template>
