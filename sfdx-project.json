@@ -2,16 +2,18 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
-            "package": "GIFter",
+            "package": "masterAccounts1",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+            
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "45.0",
     "packageAliases": {
-        "GIFter": "0Ho2G000000Gma9SAC"
+        "GIFter": "0Ho2G000000Gma9SAC",
+        "masterAccounts": "0Ho2G000000GmaESAS",
+        "masterAccounts1": "0Ho2G000000GmaJSAS"
     }
 }
