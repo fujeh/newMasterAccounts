@@ -5,7 +5,6 @@
             "package": "masterAccounts1",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
-            
         }
     ],
     "namespace": "",
@@ -14,6 +13,7 @@
     "packageAliases": {
         "GIFter": "0Ho2G000000Gma9SAC",
         "masterAccounts": "0Ho2G000000GmaESAS",
-        "masterAccounts1": "0Ho2G000000GmaJSAS"
+        "masterAccounts1": "0Ho2G000000GmaJSAS",
+        "masterAccounts1@0.1.0-2": "04t2G000000cBzLQAU"
     }
 }
